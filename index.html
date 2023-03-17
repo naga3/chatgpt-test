@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>キャラクター移動</title>
+  <style>
+    #game {
+      width: 640px;
+      height: 640px;
+      border: 1px solid black;
+      position: relative;
+      overflow: hidden;
+    }
+    .wall {
+      background-color: black;
+      position: absolute;
+    }
+    #player {
+      width: 32px;
+      height: 32px;
+      background-image: url(player.png);
+      position: absolute;
+    }
+    #enemy {
+      width: 32px;
+      height: 32px;
+      background-image: url(player.png);
+      position: absolute;
+    }
+</style>
+</head>
+<body>
+  <div id="game"></div>
+  <script src="script.js"></script>
+</body>
+</html>
