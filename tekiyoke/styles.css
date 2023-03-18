@@ -1,0 +1,28 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#game {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  background-color: skyblue;
+  border: 2px solid black;
+}
+
+#player {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+}
+
+.enemy {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+}
